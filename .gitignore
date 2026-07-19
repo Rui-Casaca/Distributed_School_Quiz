@@ -1,0 +1,92 @@
+########################
+# IDEs
+########################
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+########################
+# Sistema Operativo
+########################
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+########################
+# Java / Build
+########################
+
+# Saídas de compilação gerais
+target/
+bin/
+out/
+data/
+
+# Ficheiros compilados / artefactos
+*.class
+*.war
+*.ear
+*.zip
+*.tar
+*.tar.gz
+*.log
+*.db
+
+# Dumps de erros da JVM
+hs_err_pid*
+replay_pid*
+
+########################
+# Maven
+########################
+
+.mvn/
+.mv/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+########################
+# Gradle
+########################
+
+.gradle/
+build/
+gradle-app.setting
+gradle-wrapper.jar
+gradle-wrapper.properties~
+
+########################
+# Outros
+########################
+
+# Bases de dados locais
+*.dbCommands
+*.dbCommands-wal
+*.dbCommands-shm

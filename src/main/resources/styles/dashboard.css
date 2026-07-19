@@ -1,0 +1,200 @@
+/*
+ * Dashboard styles (dark theme) para estudante e docente.
+ *
+ * Este ficheiro centraliza a estilização dos dashboards, garantindo
+ * consistência e aparência profissional. As fontes são finas e
+ * espaçadas, com cores de acento em vermelho. Botões possuem
+ * efeitos de hover para melhor feedback visual.
+ */
+
+/* Raiz do dashboard (estudante/docente) */
+.dashboard-root-dark {
+    -fx-background-color: #121212;
+}
+
+/* Cabeçalho dos dashboards */
+.dashboard-header-dark {
+    -fx-background-color: #1f1f29;
+    -fx-padding: 15;
+}
+
+/* Texto de boas‑vindas no cabeçalho */
+.header-welcome {
+    -fx-text-fill: #e74c3c;
+    -fx-font-size: 24px;
+    -fx-letter-spacing: 1px;
+}
+
+/* Email do utilizador no cabeçalho */
+.header-email-dark {
+    -fx-text-fill: #f0f0f0;
+    -fx-font-size: 14px;
+    -fx-letter-spacing: 0.5px;
+}
+
+/* Sidebar do dashboard (menus) */
+.dashboard-sidebar-dark {
+    -fx-background-color: #1f1f29;
+    -fx-padding: 15;
+}
+
+/* Título do menu na sidebar */
+.sidebar-title-dark {
+    -fx-text-fill: #e74c3c;
+    -fx-font-size: 16px;
+    -fx-letter-spacing: 1px;
+}
+
+/* Botões da sidebar */
+.sidebar-button-dark {
+    -fx-background-color: transparent;
+    -fx-text-fill: #f0f0f0;
+    -fx-font-size: 14px;
+    -fx-letter-spacing: 0.5px;
+    -fx-alignment: center-left;
+    -fx-padding: 10 15;
+    -fx-border-color: transparent;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+.sidebar-button-dark:hover {
+    -fx-background-color: #272737;
+    -fx-text-fill: #e74c3c;
+}
+.sidebar-button-dark:pressed {
+    -fx-opacity: 0.7;
+}
+
+/* Área principal do dashboard */
+.dashboard-main-area {
+    -fx-padding: 20;
+    -fx-spacing: 20;
+}
+
+/* Título principal do dashboard */
+.dashboard-title {
+    -fx-text-fill: #e74c3c;
+    -fx-font-size: 28px;
+    -fx-letter-spacing: 1px;
+}
+
+/* Títulos de secções (ex: Notificações) */
+.dashboard-section-title {
+    -fx-text-fill: #e74c3c;
+    -fx-font-size: 18px;
+    -fx-letter-spacing: 1px;
+}
+
+/* Área de notificações */
+.notification-area-dark {
+    -fx-control-inner-background: #1f1f29;
+    -fx-text-fill: #ffffff;
+    -fx-prompt-text-fill: #666666;
+    -fx-border-color: #444444;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-letter-spacing: 0.5px;
+}
+
+/* Info cards */
+.info-card-dark {
+    -fx-background-color: #1f1f29;
+    -fx-padding: 15;
+    -fx-background-radius: 8;
+}
+.info-card-value-dark {
+    -fx-text-fill: #e74c3c;
+    -fx-font-size: 26px;
+    -fx-letter-spacing: 1px;
+}
+.info-card-title-dark {
+    -fx-text-fill: #f0f0f0;
+    -fx-font-size: 12px;
+    -fx-letter-spacing: 0.5px;
+}
+
+/* Caixa de instruções (estudante) */
+.instructions-box-dark {
+    -fx-background-color: #1f1f29;
+    -fx-padding: 15;
+    -fx-background-radius: 8;
+    -fx-border-color: #444444;
+    -fx-border-radius: 8;
+}
+
+/* Linhas de instrução */
+.instruction-line {
+    -fx-text-fill: #f0f0f0;
+    -fx-font-size: 13px;
+    -fx-letter-spacing: 0.5px;
+}
+
+/* ===== PERFIL NO SIDEBAR (COM TEMA CINZA/PRETO/VERMELHO) ===== */
+
+.profile-card {
+    -fx-background-color: linear-gradient(to bottom, #19191f, #131318);
+    -fx-padding: 18;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: #e74c3c66;
+    -fx-border-width: 1.2;
+    -fx-alignment: center;
+    -fx-spacing: 8;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.45), 12, 0.2, 0, 4);
+}
+
+.profile-avatar-circle {
+    -fx-background-color: radial-gradient(radius 120%, #2e2e3a, #15151d);
+    -fx-background-radius: 40;
+    -fx-min-width: 76;
+    -fx-min-height: 76;
+    -fx-max-width: 76;
+    -fx-max-height: 76;
+    -fx-alignment: center;
+    -fx-border-color: #e74c3c;
+    -fx-border-radius: 40;
+    -fx-border-width: 2;
+}
+
+.profile-avatar-initials {
+    -fx-text-fill: #f5f5f7;
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+}
+
+.profile-name-label {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+
+.profile-role-label {
+    -fx-text-fill: #b0b0b7;
+    -fx-font-size: 11px;
+    -fx-opacity: 0.9;
+}
+
+/* Sidebar – pequenos ajustes para combinar melhor com o perfil */
+.dashboard-sidebar-dark {
+    -fx-background-color: #0c0c12;
+}
+
+.sidebar-button-dark {
+    -fx-background-color: transparent;
+    -fx-text-fill: #e0e0e0;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 8 14 8 18;
+    -fx-background-radius: 14;
+    -fx-font-size: 13px;
+}
+
+.sidebar-button-dark:hover {
+    -fx-background-color: #1d1d27;
+    -fx-text-fill: #ffffff;
+}
+
+.sidebar-button-dark:selected,
+.sidebar-button-dark:focused {
+    -fx-background-color: #e74c3c;
+    -fx-text-fill: #ffffff;
+}
